@@ -31,7 +31,7 @@ plot3<-function(){
         lines(select$y, select$x1)
         lines(select$y, select$x2, col='red')
         lines(select$y, select$x3, col='blue')
-        legend("topright", lty=1, col=c("black", "red", "blue"), legend=c("Sub_metering_1", "Sub_metering 2", "Sub_metering_3"))
+        legend("topright", lty=1, col=c("black", "red", "blue"), legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
         
         #close png
         dev.off()
